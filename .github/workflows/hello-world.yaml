@@ -1,0 +1,12 @@
+name: Hello World
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-hello-world:
+    runs-on: ila
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello World"
