@@ -5,7 +5,7 @@ on:
 
 jobs:
   print-hello-world:
-    runs-on: ila
+    runs-on: self-hosted
 
     steps:
       - name: Say Hello
