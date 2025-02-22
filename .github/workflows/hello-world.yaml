@@ -5,7 +5,7 @@ on:
 
 jobs:
   print-hello-world:
-    runs-on: ila
+    runs-on: self-runner
 
     steps:
       - name: Say Hello
